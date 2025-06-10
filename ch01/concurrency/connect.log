@@ -1,6 +1,0 @@
-2025/06/05 23:10:38 main.go:78: Connecting to spine02 (attempt 1)
-2025/06/05 23:10:38 main.go:78: Connecting to leaf01 (attempt 1)
-2025/06/05 23:10:38 main.go:78: Connecting to leaf02 (attempt 1)
-2025/06/05 23:10:38 main.go:78: Connecting to spine01 (attempt 1)
-2025/06/05 23:10:38 main.go:78: Connecting to leaf03 (attempt 1)
-2025/06/05 23:10:38 main.go:141: Results saved to results.json
