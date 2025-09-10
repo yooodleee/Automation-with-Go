@@ -1,0 +1,4 @@
+github.com/yooodleee/Automation-With-Go v0.0.0-20250910055824-d85dcbd4278b h1:Yp9E43XpukOlQyUAljFPIJXCc7hB/4JD0eCRB7s80+E=
+github.com/yooodleee/Automation-With-Go v0.0.0-20250910055824-d85dcbd4278b/go.mod h1:PAGDe9gHS7h9V/P1ZGIZMugkcDvywoyWlnLBl4RZ3WA=
+google.golang.org/protobuf v1.36.9 h1:w2gp2mA27hUeUzj9Ex9FBjsBm40zfaDtEWow293U7Iw=
+google.golang.org/protobuf v1.36.9/go.mod h1:fuxRtAxBytpl4zzqUh6/eyUujkJdNiuEkXntxiD/uRU=
