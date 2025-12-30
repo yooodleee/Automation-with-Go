@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+func fn(m map[int]int) {
+	m[1] = 11
+}
+
 func mutateV(input []string) {
 	input[0] = "r03"
 	input = append(input, "r04")
@@ -15,6 +19,12 @@ func mutateP(input *[]string) {
 }
 
 func main() {
+	m := make(map[int]int)
+	fn(m)
+
+	// prints 11
+	fmt.Println(m[1])
+
 	d1 := []string{"r01", "r02"}
 	mutateV(d1)
 
