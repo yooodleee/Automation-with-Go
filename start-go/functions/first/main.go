@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"net/http"
 	"strings"
 )
 
@@ -14,6 +15,15 @@ func processDevice(getName func(string, string) string, ip string) {
 	base := "device"
 	name := getName(base, ip)
 	fmt.Println(name)
+}
+
+func makeCall(url string) (*http.Response, error) {
+	resp, err := http.Get("example.com")
+	if err != nil {
+		return nil, fmt.Errorf("error in makeCall: %w", err)
+	}
+
+	return resp, nil
 }
 
 func main() {
